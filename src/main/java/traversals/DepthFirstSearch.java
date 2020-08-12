@@ -28,8 +28,7 @@ public class DepthFirstSearch {
 		
 		int i=1;
 		for(List<Coordinate> l: paths) {
-			System.out.println(i+")." + l + "\n");
-			i++;
+			System.out.println(i++ +")." + l + "\n");
 		}
 		
 	}
