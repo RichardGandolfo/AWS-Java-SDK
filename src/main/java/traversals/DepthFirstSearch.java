@@ -24,7 +24,7 @@ public class DepthFirstSearch {
 		};
 		
 		getPath(test, new Coordinate(0,0), new Coordinate(6,0));
-		Collections.sort(paths, (a,b)->b.size()-a.size());
+		//Collections.sort(paths, (a,b)->b.size()-a.size());
 		
 		int i=1;
 		for(List<Coordinate> l: paths) {
