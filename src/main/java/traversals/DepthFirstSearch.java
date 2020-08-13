@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import util.Coordinate;
+import com.amazonaws.services.s3.AmazonS3;
 
 public class DepthFirstSearch {
 	private static List<List<Coordinate>> paths = new ArrayList<>();
