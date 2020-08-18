@@ -20,7 +20,6 @@ import com.amazonaws.services.dynamodbv2.model.ScalarAttributeType;;
 
 public class DepthFirstSearch {
 	private static List<List<Coordinate>> paths = new ArrayList<>();
-	private static int minSize = Integer.MAX_VALUE;
 
 	public static void main(String[] args) {
 		int[][] test = {
