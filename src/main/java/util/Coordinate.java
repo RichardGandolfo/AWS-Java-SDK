@@ -1,5 +1,6 @@
 package util;
 
+//Represents cartesian point
 public class Coordinate {
 	private int X;
 	private int Y;
